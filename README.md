@@ -65,7 +65,7 @@ Support-set sizes per run: 45 (5-shot), 90 (10-shot), 180 (20-shot).
 ## Running
 
 1. Install the requirements (`pip install -r requirements.txt`). The runs used `transformers` 4.24.0 on one GPU with 48 GB memory.
-2. Edit the paths in the scripts. They contain the original server paths (`/home/nora_alturayeif/STANCE/My_T/...`); `data/Prompted_data_EN/train.json` there corresponds to `Data/train_prompted.json` here.
+2. Edit the paths in the scripts. They contain the original server paths
 3. Train: set `task_name`, `train_file` and `validation_file` in `code/run_multitask.sh`, then run it.
 4. Predict: set `task_name`, the model directory and `test_file` (`Data/test_Mawqif.json`) in `code/eval_multitask.sh`. Also set `file_name` and `file_dir` in `code/my_metric.py`, which writes the report.
 5. Score per target: set `data_name` in `code/All_metrics.py` to the generated predictions file.
@@ -91,7 +91,3 @@ The data combines the following public datasets. Please cite the original papers
 - NLI / claim verification: XNLI (Arabic), AraStance, ANS
 - Offensive language: OSACT 2020, OSACT 2022
 - Sarcasm: ArSarcasm-v2, iSarcasmEval (Arabic), Mawqif (sarcasm labels)
-
-## Contact
-
-Nora Alturayeif
