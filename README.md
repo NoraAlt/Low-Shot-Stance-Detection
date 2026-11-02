@@ -1,4 +1,4 @@
-# Low-Shot Stance Detection (Arabic)
+# Low-Shot Stance Detection
 
 Code and data for **"Cross-Task Knowledge Transfer for Arabic Low-Shot Stance Detection"** (N. Alturayeif, H. Luqman, M. Ahmed).
 
