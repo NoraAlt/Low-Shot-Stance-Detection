@@ -1,0 +1,12 @@
+transformers==4.24.0
+datasets<3.0      # run_seq2seq_M.py uses datasets.load_metric
+torch
+numpy
+pandas
+scikit-learn
+wandb
+matplotlib
+seaborn
+tqdm
+arabert           # PMTL / SMTL notebooks (arabert.preprocess)
+lime              # PMTL_HW.ipynb interpretability cells
